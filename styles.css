@@ -1,0 +1,68 @@
+/* reset: Remover los estilos que vienen por defecto con el navegador
+/* "*" = Todo */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* CAMBIAR LA FUENTE DE LA WEB */
+    font-family: Helvetica,sans-serif;
+}
+
+header{
+    /* border: solid 3px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+img{
+    border-radius: 50%;
+}
+
+ul{
+    display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+a{
+    text-decoration:none;
+    color: black;
+}
+
+.hero{
+    border:solid;
+    background: url(https://i0.wp.com/grupocasalima.com/wp-content/uploads/2022/04/tienda-de-ferreteria-casa-lima.webp?resize=800%2C400&ssl=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: azure;
+}
+
+h1{
+    font-size: 40px;
+    text-shadow: 1px 1px 2px black;
+}
+p{
+    font-size: 18px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.btn_inicio{
+    margin-top: 20px;
+    display: block;
+    background-color: rgb(6, 154, 48);
+    color: white;
+    width: 150px;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 6px;
+}
