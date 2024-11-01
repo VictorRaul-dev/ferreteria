@@ -67,3 +67,64 @@ p{
     text-align: center;
     border-radius: 6px;
 }
+
+/* Estilos para la sección de componentes dinámicos */
+#dynamic-components {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#dynamic-components h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#dynamic-components label {
+    display: block;
+    font-weight: bold;
+    color: #555;
+    margin: 10px 0 5px;
+}
+
+#nombreUsuario,
+#categoriaProductos {
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#saludo,
+#mensajeCategoria {
+    font-size: 18px;
+    color: #444;
+    margin-top: 15px;
+}
+
+#colorButton,
+#dynamic-components button {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+#colorButton:hover,
+#dynamic-components button:hover {
+    background-color: #0056b3;
+}
