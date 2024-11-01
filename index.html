@@ -51,6 +51,26 @@
 
         </div>
     </main>
+    <!-- ANTES DE ACABAR EL BODY-->
+
+    <script>
+        //vamos a solicitar un color al usuario
+     const colorDeFondo = prompt("Hola usuario, por favor escribe un color en inglés");
+     console.log(colorDeFondo)
+     // para poder modificar el color de fondo
+     document.body.style.backgroundColor=colorDeFondo;
+
+    // PESO EN LA LUNA
+    // (PESO/9.81)*1.622
+    const peso = prompt("Ingresa tu peso en la tierra");
+    // como promot nos retorna un string debemos convertir peso a number
+    // parseInt(peso) => convertir a numeros enteros
+    // parseFloat(peso) => convertir a numeros decimales
+    // Number(peso)
+    const resultado=(Number(peso)/9.81)*1.622;
+    alert("Tu peso en la luna es: "+resultado)
+    </script>
+
 </body>
 
 </html>
