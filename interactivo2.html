@@ -1,29 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-</head>
-<body>
-  <main>
-    <h1>Juegos</h1>
-    <div>
-      <h3>Cambiar color de fondo</h3>
-      <input
-        id="input-color"
-        type="text"
-        placeholder="Ingrese un color en inglés"
-      />
-      <button id="btn-change-color">Cambiar el color</button>
-    </div>
-    <div>
-      <button>Hermanos</button>
-      <button>Dibujar bloques</button>
-      <button>Yan Quen Po</button>
-    </div>
-    <div id="game-area"></div>
-  </main>
-  <script src="./app2.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles2.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Juegos</h1>
+      <div>
+        <h3>Cambiar color de fondo</h3>
+        <input
+          id="input-color"
+          type="text"
+          placeholder="Ingrese un color en ingles"
+        />
+        <button id="btn-change-color">Cambiar el color</button>
+      </div>
+      <div>
+        <div id="brothers-container">
+          <input
+            id="input-register-brothers"
+            type="text"
+            placeholder="Ingrese la cantidad de hermanos"
+          />
+          <button onclick="registerBrothers()">
+            Activar el guardo de hermanos
+          </button>
+        </div>
+        <button onclick="generateBlocks()">Bloques</button>
+        <button onclick="yanQuenPo()">Yan Quen Po</button>
+      </div>
+      <div id="game-area"></div>
+    </main>
+    <script src="./app2.js"></script>
+  </body>
 </html>
