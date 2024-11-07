@@ -68,6 +68,17 @@ p{
     border-radius: 6px;
 }
 
+.btn_interactuar{
+    margin-top: 40px;
+    display: block;
+    background-color: rgb(5, 20, 231);
+    color: white;
+    width: 150px;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 6px;
+}
+
 /* Estilos para la sección de componentes dinámicos */
 #dynamic-components {
     margin: 20px;
